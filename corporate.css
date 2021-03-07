@@ -1,10 +1,9 @@
-  /font-family: 'PT Serif',
-  arial;
-  font-family: 'Exo',
-  sans-serif;
-  font-family: 'Lato',
-  sans-serif;
-  */ * {
+  /*  font-family: 'PT Serif', arial; 
+  font-family: 'Exo', sans-serif;
+font-family: 'Lato', sans-serif;
+*/
+  
+  * {
       padding: 0;
       margin: 0;
   }
@@ -1223,7 +1222,7 @@
       .block_window {
           background: url('img/block_window/Rectangle 23.png');
           width: 100%;
-          height: 594px;
+          height: 754px;
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -1250,7 +1249,7 @@
           width: 135.554px;
           height: 10.938px;
           z-index: 157;
-          margin-top: 30px;
+          margin-top: -40px;
       }
       .block_window__Some_awesone_features {
           font-size: 40px;
@@ -1279,7 +1278,7 @@
       }
       .block_window__window-browser {
           margin-top: 208px;
-          width: 80%;
+          width: 100%;
       }
       .block_window__window-browser img {
           width: 100%;
@@ -2100,9 +2099,6 @@
       }
       .block_window__window-browser img {
           width: 100%;
-          display: flex;
-          justify-content: center;
-          align-self: center;
       }
       .Over_1000_designers {
           background: url('img/1000_designers/Rectangle 25.png');
@@ -3495,11 +3491,10 @@
       }
       .Resposive_design__left-block_rectangle {
           opacity: 0.8;
-          margin-top: -285px;
+          margin-top: -450px;
           margin-left: 0px;
           position: absolute;
           z-index: 5;
-          width: 50%;
       }
       .macbook {
           display: flex;
@@ -3549,10 +3544,11 @@
           background: url('img/members/Group 4.png');
           width: 100%;
           height: 648px;
-          z-index: 7;
+          z-index: 21;
           display: flex;
           flex-direction: column;
           align-items: center;
+          position: relative;
           justify-content: center;
       }
       .members__blocks {
@@ -3629,10 +3625,9 @@
           display: flex;
           flex-direction: column;
           justify-content: center;
-          box-sizing: border-box;
           align-items: center;
-          margin-top: -110px;
-          z-index: 7;
+          box-sizing: border-box;
+          margin-top: 300px;
       }
       .block_window__new_features {
           font-size: 16px;
@@ -3646,7 +3641,7 @@
           width: 135.554px;
           height: 10.938px;
           z-index: 157;
-          margin-top: 70px;
+          margin-top: -40px;
       }
       .block_window__Some_awesone_features {
           font-size: 40px;
@@ -3675,10 +3670,6 @@
       }
       .block_window__window-browser {
           margin-top: 128px;
-          width: 820px;
-          height: 375px;
-          margin-left: auto;
-          margin-right: auto;
       }
       .Over_1000_designers {
           background: url('img/1000_designers/Rectangle 25.png');
@@ -3882,7 +3873,6 @@
           align-items: center;
           margin-right: 0;
           width: 70%;
-          margin-top: 0;
       }
       .Support_block__list {
           font-size: 14px;
@@ -4038,7 +4028,7 @@
           opacity: 0.8;
           z-index: 0;
           display: flex;
-          top: -303px;
+          top: -213px;
           margin-right: 0;
           width: 20%;
           position: absolute;
