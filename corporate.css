@@ -623,6 +623,7 @@ font-family: 'Lato', sans-serif;
       -ms-transform: matrix( 0.55113674571119, 0, 0, 0.56007269178358, 0, 0);
       z-index: 112;
       margin-left: -23px;
+      margin-right: -20px;
   }
   
   .Start_block__Start__Polygon {
@@ -821,7 +822,9 @@ font-family: 'Lato', sans-serif;
       padding-left: 20px;
   }
   
-  .Get_Newsletter__figure {}
+  .Start_Ex_block {}
+  
+  .Start_Ex_block__Ex {}
   
   .Start_Ex_block__right {
       opacity: 0.8;
@@ -1222,7 +1225,7 @@ font-family: 'Lato', sans-serif;
       .block_window {
           background: url('img/block_window/Rectangle 23.png');
           width: 100%;
-          height: 754px;
+          height: auto;
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -1249,7 +1252,7 @@ font-family: 'Lato', sans-serif;
           width: 135.554px;
           height: 10.938px;
           z-index: 157;
-          margin-top: -40px;
+          margin-top: 20px;
       }
       .block_window__Some_awesone_features {
           font-size: 40px;
@@ -1278,7 +1281,7 @@ font-family: 'Lato', sans-serif;
       }
       .block_window__window-browser {
           margin-top: 208px;
-          width: 100%;
+          width: 80%;
       }
       .block_window__window-browser img {
           width: 100%;
@@ -1454,6 +1457,7 @@ font-family: 'Lato', sans-serif;
           -ms-transform: matrix( 0.55113674571119, 0, 0, 0.56007269178358, 0, 0);
           z-index: 112;
           margin-left: -23px;
+          margin-right: -20px;
       }
       .Start_block__Start__Polygon {
           display: flex;
@@ -1647,6 +1651,8 @@ font-family: 'Lato', sans-serif;
           position: relative;
           z-index: 8;
       }
+      .Start_Ex_block {}
+      .Start_Ex_block__Ex {}
       .Start_Ex_block__right {
           opacity: 0.8;
           z-index: 0;
@@ -1902,6 +1908,7 @@ font-family: 'Lato', sans-serif;
           align-items: center;
           width: 100%;
           flex-direction: column;
+          margin-top: -110px;
       }
       .Resposive_design__left-block {
           display: flex;
@@ -1909,6 +1916,7 @@ font-family: 'Lato', sans-serif;
           margin-left: 0;
           z-index: 5;
           position: inherit;
+          width: 70%;
       }
       .Resposive_design__left-block_rectangle {
           opacity: 0.8;
@@ -1967,7 +1975,7 @@ font-family: 'Lato', sans-serif;
           width: 100%;
           height: auto;
           z-index: 21;
-          margin-top: 150px;
+          margin-top: 70px;
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -2039,7 +2047,7 @@ font-family: 'Lato', sans-serif;
       .block_window {
           background: url('img/block_window/Rectangle 23.png');
           width: 100%;
-          height: 754px;
+          height: auto;
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -2095,7 +2103,7 @@ font-family: 'Lato', sans-serif;
       }
       .block_window__window-browser {
           margin-top: 128px;
-          width: 100%;
+          width: 80%;
       }
       .block_window__window-browser img {
           width: 100%;
@@ -2422,7 +2430,7 @@ font-family: 'Lato', sans-serif;
           display: flex;
           margin-left: 0;
           height: auto;
-          z-index: 8;
+          z-index: 5;
       }
       .Get_Newsletter__10 {
           display: flex;
@@ -2593,8 +2601,9 @@ font-family: 'Lato', sans-serif;
       }
       .new_design__right-block {
           z-index: 45;
-          width: 70%;
+          width: 66%;
           margin-top: 100px;
+          height: auto;
       }
       .new_design__right-block img {
           width: 100%;
@@ -2690,7 +2699,8 @@ font-family: 'Lato', sans-serif;
           height: auto;
           z-index: 6;
           position: relative;
-          margin-top: 250px;
+          margin-top: 150px;
+          flex-direction: row;
       }
       .Resposive_design__main-block {
           display: flex;
@@ -2698,6 +2708,7 @@ font-family: 'Lato', sans-serif;
           z-index: 0;
           align-items: center;
           width: 100%;
+          flex-direction: row;
       }
       .Resposive_design__left-block {
           display: flex;
@@ -2705,6 +2716,7 @@ font-family: 'Lato', sans-serif;
           margin-left: 0;
           z-index: 5;
           position: inherit;
+          flex-direction: row;
       }
       .Resposive_design__left-block_rectangle {
           opacity: 0.8;
@@ -2719,11 +2731,13 @@ font-family: 'Lato', sans-serif;
           align-self: center;
           margin-left: 0;
           z-index: 7;
-          margin-top: 80px;
+          margin-top: 20px;
+          width: 100%;
       }
       .Resposive_design__right-block {
           display: flex;
           flex-direction: column;
+          width: 80%;
       }
       .Resposive_design__right-block__text {
           font-size: 16px;
@@ -2743,7 +2757,7 @@ font-family: 'Lato', sans-serif;
           line-height: 1.25;
           text-align: left;
           width: 80%;
-          height: 93px;
+          height: auto;
           z-index: 162;
       }
       .Resposive_design__right-block__aenean_eu_leo_quam {
@@ -2751,20 +2765,21 @@ font-family: 'Lato', sans-serif;
           font-family: "Exo";
           color: rgba(40, 40, 40, 0.659);
           line-height: 1.625;
-          width: 90%;
-          height: 96px;
+          width: 80%;
+          height: auto;
           z-index: 164;
-          margin-top: 20px;
+          margin-top: 40px;
       }
       .members {
           background: url('img/members/Group 4.png');
           width: 100%;
           height: 648px;
-          z-index: 21;
+          z-index: 7;
           display: flex;
           flex-direction: column;
           align-items: center;
           position: relative;
+          margin-top: 50px;
           justify-content: center;
       }
       .members__blocks {
@@ -2825,16 +2840,18 @@ font-family: 'Lato', sans-serif;
           justify-content: space-between;
           align-items: center;
           margin-top: 110px;
-          width: 70%;
+          width: 90%;
       }
       .block_window {
           background: url('img/block_window/Rectangle 23.png');
           width: 100%;
-          height: 754px;
+          height: 715px;
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          position: relative;
+          z-index: 6;
       }
       .block_window__com_block {
           display: flex;
@@ -2884,7 +2901,9 @@ font-family: 'Lato', sans-serif;
           margin-top: 40px;
       }
       .block_window__window-browser {
-          margin-top: 128px;
+          margin-top: 80px;
+          width: 768px;
+          height: 322px;
       }
       .Over_1000_designers {
           background: url('img/1000_designers/Rectangle 25.png');
@@ -3202,7 +3221,7 @@ font-family: 'Lato', sans-serif;
           display: flex;
           margin-left: 0;
           height: auto;
-          z-index: 8;
+          z-index: 5;
       }
       .Get_Newsletter__10 {
           display: flex;
@@ -3471,7 +3490,7 @@ font-family: 'Lato', sans-serif;
           height: auto;
           z-index: 6;
           position: relative;
-          margin-top: 50px;
+          margin-top: 80px;
           flex-direction: row;
       }
       .Resposive_design__main-block {
@@ -3481,6 +3500,7 @@ font-family: 'Lato', sans-serif;
           align-items: center;
           width: 100%;
           flex-direction: row;
+          height: auto;
       }
       .Resposive_design__left-block {
           display: flex;
@@ -3491,10 +3511,11 @@ font-family: 'Lato', sans-serif;
       }
       .Resposive_design__left-block_rectangle {
           opacity: 0.8;
-          margin-top: -450px;
+          margin-top: -200px;
           margin-left: 0px;
           position: absolute;
           z-index: 5;
+          width: 40%;
       }
       .macbook {
           display: flex;
@@ -3614,7 +3635,7 @@ font-family: 'Lato', sans-serif;
       .block_window {
           background: url('img/block_window/Rectangle 23.png');
           width: 100%;
-          height: 754px;
+          height: 765px;
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -3627,7 +3648,6 @@ font-family: 'Lato', sans-serif;
           justify-content: center;
           align-items: center;
           box-sizing: border-box;
-          margin-top: 300px;
       }
       .block_window__new_features {
           font-size: 16px;
@@ -3678,6 +3698,7 @@ font-family: 'Lato', sans-serif;
           display: flex;
           justify-content: center;
           z-index: 5;
+          position: relative;
       }
       .Over_1000_designers__com-block {
           display: flex;
@@ -3873,6 +3894,8 @@ font-family: 'Lato', sans-serif;
           align-items: center;
           margin-right: 0;
           width: 70%;
+          margin-top: 0;
+          margin-bottom: 0;
       }
       .Support_block__list {
           font-size: 14px;
@@ -4028,7 +4051,7 @@ font-family: 'Lato', sans-serif;
           opacity: 0.8;
           z-index: 0;
           display: flex;
-          top: -213px;
+          top: -303px;
           margin-right: 0;
           width: 20%;
           position: absolute;
@@ -4161,18 +4184,18 @@ font-family: 'Lato', sans-serif;
       }
       .new_design__right-block {
           z-index: 45;
-          width: 38.7%;
-          margin-top: 100px;
+          width: 29.7%;
+          margin-top: 0;
           max-width: 100%;
       }
       .new_design__right-block img {
           width: 100%;
       }
       .new_features {
-          background: url('img/new_features/Rectangle 5 (1840 x 863).jpg');
+          background: url('img/new_features/Rectangle 5 (1920 x 900).jpg');
           display: flex;
           width: 100%;
-          margin-top: 0;
+          margin-top: -100px;
           height: 640px;
           flex-direction: column;
           align-items: center;
@@ -4219,7 +4242,7 @@ font-family: 'Lato', sans-serif;
           -moz-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
           -webkit-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
           -ms-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
-          width: 40%;
+          width: 50%;
           height: auto;
           z-index: 225;
           margin-top: 30px;
@@ -4247,7 +4270,7 @@ font-family: 'Lato', sans-serif;
           color: rgba(40, 40, 40, 0.659);
           line-height: 1.625;
           text-align: center;
-          width: auto;
+          width: 70%;
           height: auto;
           z-index: 212;
           margin-top: 30px;
@@ -4403,21 +4426,22 @@ font-family: 'Lato', sans-serif;
       .block_window {
           background: url('img/block_window/Rectangle 23.png');
           width: 100%;
-          height: auto;
           display: flex;
           position: relative;
           flex-direction: column;
           justify-content: center;
           z-index: 20;
           align-items: center;
+          height: 730px;
       }
       .block_window__com_block {
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          height: 650px;
           box-sizing: border-box;
-          margin-top: 110px;
+          margin-top: 80px;
       }
       .block_window__new_features {
           font-size: 16px;
@@ -4818,7 +4842,7 @@ font-family: 'Lato', sans-serif;
           opacity: 0.8;
           z-index: 0;
           display: flex;
-          top: -383px;
+          top: -390px;
           margin-right: 0;
           width: 20%;
           position: absolute;
