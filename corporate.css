@@ -4065,9 +4065,11 @@ form {
 
 @media (min-width: 1840px) {
     header {
-        background: url('img/header/background\ \(1920\ x\ 1084\).jpg');
+        background: url('img/header/4K_header_back.jpg');
+        background-size: cover;
         width: 100%;
         height: 813px;
+        background-position: bottom;
         display: flex;
         justify-content: center;
     }
@@ -4132,29 +4134,29 @@ form {
     .new_design {
         display: flex;
         width: 100%;
-        justify-content: space-between;
+        justify-content: flex-start;
         box-sizing: border-box;
         z-index: 6;
-        margin-top: -100px;
+        margin-top: 0px;
         height: 720px;
         flex-direction: row;
+        position: relative;
     }
     .new_design__left-block {
         display: flex;
         flex-direction: column;
         margin-left: 0;
-        margin-top: 80px;
-        justify-content: center;
-        align-items: center;
-        height: 500px;
+        align-items: flex-start;
+        height: auto;
+        margin-top: 150px;
+        padding-left: 200px;
     }
     .new_design__text {
-        font-size: 16px;
+        font-size: 40px;
         font-family: "Exo";
         color: rgb(255, 109, 109);
         line-height: 3.125;
-        text-align: left;
-        width: 119px;
+        width: auto;
         height: auto;
         z-index: 233;
     }
@@ -4162,46 +4164,49 @@ form {
         color: red;
     }
     .new_design__there_is_no_other {
-        font-size: 34px;
+        font-size: 40px;
         font-family: "Exo";
         color: rgb(40, 40, 40);
         line-height: 1.25;
         text-align: left;
-        width: 65%;
+        width: auto;
         height: 93px;
         z-index: 232;
         margin-top: 10px;
     }
     .new_design__aenean_eu_leo_quam {
-        font-size: 16px;
+        font-size: 40px;
         font-family: "Exo";
         color: rgba(40, 40, 40, 0.659);
         line-height: 1.625;
-        width: 66%;
+        width: 70%;
         height: auto;
         z-index: 234;
         margin-top: 30px;
     }
     .new_design__right-block {
         z-index: 45;
-        width: 29.7%;
-        margin-top: 0;
-        max-width: 100%;
+        margin-top: -60px;
+        position: absolute;
+        right: 0;
+        width: auto;
     }
     .new_design__right-block img {
-        width: 100%;
+        width: auto;
+        height: 660px;
     }
     .new_features {
         background: url('img/new_features/Rectangle 5 (1920 x 900).jpg');
         display: flex;
         width: 100%;
-        margin-top: -100px;
+        margin-top: 300px;
         height: 640px;
         flex-direction: column;
         align-items: center;
         z-index: 7;
         background-repeat: no-repeat;
         position: relative;
+        background-size: cover;
     }
     .Earphones {
         background-image: url("Earphones.png");
@@ -4282,7 +4287,7 @@ form {
         height: auto;
         z-index: 6;
         position: relative;
-        margin-top: 50px;
+        margin-top: 260px;
         flex-direction: row;
     }
     .Resposive_design__main-block {
@@ -4299,41 +4304,43 @@ form {
         margin-left: 0;
         z-index: 5;
         position: inherit;
+        width: 30%;
     }
     .Resposive_design__left-block_rectangle {
         opacity: 0.8;
         margin-top: -360px;
-        margin-left: 0px;
         position: absolute;
         z-index: 5;
-        width: 50%;
+        width: 34%;
+        left: 0;
     }
     .macbook {
         display: flex;
         height: fit-content;
         align-self: center;
-        margin-left: 0;
+        margin-left: 0px;
         z-index: 7;
-        margin-top: 80px;
+        margin-top: 190px;
     }
     .Resposive_design__right-block {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        width: 50%;
     }
     .Resposive_design__right-block__text {
-        font-size: 16px;
+        font-size: 50px;
         font-family: "Exo";
         color: rgb(255, 109, 109);
         line-height: 3.125;
         text-align: left;
-        width: 119px;
+        width: auto;
         height: auto;
         z-index: 10;
         display: flex;
     }
     .Resposive_design__right-block__resposive_design {
-        font-size: 40px;
+        font-size: 50px;
         font-family: "Exo";
         color: rgb(40, 40, 40);
         line-height: 1.25;
@@ -4343,11 +4350,11 @@ form {
         z-index: 162;
     }
     .Resposive_design__right-block__aenean_eu_leo_quam {
-        font-size: 16px;
+        font-size: 45px;
         font-family: "Exo";
         color: rgba(40, 40, 40, 0.659);
         line-height: 1.625;
-        width: 60%;
+        width: 90%;
         height: 96px;
         z-index: 164;
         margin-top: 20px;
@@ -4362,6 +4369,7 @@ form {
         align-items: center;
         position: relative;
         justify-content: center;
+        margin-top: 380px;
     }
     .members__blocks {
         display: flex;
@@ -4852,11 +4860,4 @@ form {
     .Start_Ex_block__right img {
         width: 68%;
     }
-}
-
-.Start_Ex_block__right img {
-    width: 68%;
-}
-
-
 }
