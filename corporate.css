@@ -12,6 +12,7 @@
  body {
      box-sizing: border-box;
      width: 100%;
+     margin: 0;
  }
  
  header {
@@ -3467,7 +3468,7 @@
          width: 162px;
          height: 215px;
          z-index: 4;
-         left: 1050px;
+         left: 850px;
      }
      .new_features__text {
          font-size: 16px;
