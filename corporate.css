@@ -1686,7 +1686,7 @@
          width: 100%;
          display: flex;
          justify-content: center;
-         height: 50%;
+         height: 80%;
          background-position: bottom;
      }
      .header_blocks {
@@ -1786,8 +1786,8 @@
          font-family: "Exo";
          color: rgb(40, 40, 40);
          line-height: 1.25;
-         text-align: left;
-         width: 65%;
+         text-align: center;
+         width: 80%;
          height: auto;
          z-index: 232;
          margin-top: 10px;
@@ -1804,10 +1804,11 @@
      }
      .new_design__right-block {
          z-index: 45;
-         width: 70%;
+         width: 100%;
          display: flex;
          justify-content: center;
          align-items: center;
+         top: 90px;
      }
      .new_design__right-block img {
          width: 100%;
@@ -1831,6 +1832,7 @@
          width: 40%;
          height: auto;
          z-index: 4;
+         left: 170px;
      }
      .new_features__text {
          font-size: 16px;
@@ -2090,9 +2092,8 @@
          -webkit-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
          -ms-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
          width: 135.554px;
-         height: 10.938px;
          z-index: 157;
-         margin-top: -370px;
+         margin-top: -300px;
      }
      .block_window__Some_awesone_features {
          font-size: 40px;
@@ -2145,6 +2146,7 @@
          box-sizing: border-box;
          margin-top: 90px;
          z-index: 4;
+         position: relative;
      }
      .Over_1000_designers__new_features {
          font-size: 16px;
@@ -2226,13 +2228,12 @@
          margin-right: 0;
      }
      .figures {
-         margin-bottom: 0;
-         margin-top: 90px;
          margin-left: 0px;
          width: auto;
          display: flex;
          position: absolute;
          align-items: center;
+         top: 490px;
      }
      ._30_days_free_trial_for_all_ {
          font-size: 16px;
@@ -2252,22 +2253,23 @@
          margin-top: 13px;
      }
      .Over_1000_designers__By_Signing_up {
-         font-size: 16px;
+         font-size: 20px;
          font-family: "Exo";
          color: rgba(246, 245, 243, 0.6);
-         line-height: 4.688;
          z-index: 139;
          margin-top: 30px;
          display: flex;
          align-items: center;
          justify-content: center;
          flex-wrap: wrap;
+         width: 90%;
+         line-height: 1;
      }
      .terms {
-         font-size: 16px;
+         font-size: 24px;
          font-family: "Exo";
          color: rgba(246, 245, 243, 0.6);
-         line-height: 4.688;
+         line-height: 3.688;
      }
      .Start_Ex_block {
          background: #ffffff;
@@ -2287,6 +2289,7 @@
          display: flex;
          flex-direction: row;
          align-items: center;
+         margin-top: -60px;
      }
      .Start_block__Start {
          font-size: 48px;
@@ -2345,11 +2348,11 @@
          font-family: "Exo";
          color: rgba(40, 40, 40, 0.659);
          line-height: 2.143;
-         text-align: left;
          width: 78px;
          height: 72px;
          z-index: 96;
          margin-top: 30px;
+         padding-left: 0;
      }
      .Support_block__list li {
          list-style: none;
@@ -2402,6 +2405,7 @@
          height: 72px;
          z-index: 96;
          margin-top: 30px;
+         padding-left: 0;
      }
      .About_US_block__list li {
          list-style: none;
