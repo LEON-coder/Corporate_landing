@@ -406,21 +406,6 @@ header {
     margin-top: -40px;
 }
 
-.block_window__Some_awesone_features {
-    font-size: 40px;
-    font-family: "Exo";
-    color: rgb(40, 40, 40);
-    line-height: 1.25;
-    text-align: center;
-    -moz-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
-    -webkit-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
-    -ms-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
-    width: auto;
-    height: 29.1px;
-    z-index: 156;
-    margin-top: 30px;
-}
-
 .block_window__aenean_eu_leo {
     font-size: 16px;
     font-family: "Exo";
@@ -433,10 +418,7 @@ header {
     margin-top: 40px;
 }
 
-.block_window__window-browser {
-    margin-top: 128px;
-    width: 100%;
-}
+
 
 .Over_1000_designers {
     background: url('img/1000_designers/Rectangle 25.png');
@@ -1268,9 +1250,7 @@ form {
     margin-top: 40px;
 }
 
-.block_window__window-browser {
-    margin-top: 128px;
-}
+.block_window__window-browser {position: absolute;bottom: 0;}
 
 .Over_1000_designers {
     background: url('img/1000_designers/Rectangle 25.png');
@@ -2074,7 +2054,6 @@ form {
     .block_window__com_block {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         box-sizing: border-box;
         margin-top: 0px;
@@ -2901,7 +2880,6 @@ form {
     .block_window__com_block {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         box-sizing: border-box;
         margin-top: 0;
@@ -3451,7 +3429,6 @@ form {
         width: 66%;
         height: auto;
     }
-
     .new_features {
         background: url('img/new_features/Rectangle 5.jpg');
         display: flex;
@@ -3700,8 +3677,6 @@ form {
     .block_window__com_block {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         box-sizing: border-box;
         margin-top: 110px;
     }
@@ -3745,9 +3720,7 @@ form {
         margin-top: 40px;
     }
     .block_window__window-browser {
-        margin-top: 80px;
         width: 768px;
-        height: 322px;
     }
     .Over_1000_designers {
         background: url('img/1000_designers/Rectangle 25.png');
@@ -4503,8 +4476,6 @@ form {
     .block_window__com_block {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         box-sizing: border-box;
     }
     .block_window__new_features {
@@ -4547,7 +4518,8 @@ form {
         margin-top: 40px;
     }
     .block_window__window-browser {
-        margin-top: 128px;
+    position: absolute;
+    bottom: 0;
     }
     .Over_1000_designers {
         background: url('img/1000_designers/Rectangle 25.png');
@@ -4973,6 +4945,31 @@ form {
         width: 60%;
         height: 93px;
         z-index: 162;
+    }
+    .block_window__com_block {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        margin-top: 0;
+        justify-content: flex-start;
+    }
+    .block_window__Some_awesone_features {
+        font-size: 40px;
+        font-family: "Exo";
+        color: rgb(40, 40, 40);
+        line-height: 1.25;
+        text-align: center;
+        -moz-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
+        -webkit-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
+        -ms-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
+        width: auto;
+        height: 29.1px;
+        z-index: 156;
+        margin-top: 30px;
+    }
+    .block_window__window-browser {
+    position: absolute;
+    bottom: 0;
     }
 }
 
