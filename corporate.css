@@ -406,6 +406,21 @@ header {
     margin-top: -40px;
 }
 
+.block_window__Some_awesone_features {
+    font-size: 40px;
+    font-family: "Exo";
+    color: rgb(40, 40, 40);
+    line-height: 1.25;
+    text-align: center;
+    -moz-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
+    -webkit-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
+    -ms-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
+    width: auto;
+    height: 29.1px;
+    z-index: 156;
+    margin-top: 30px;
+}
+
 .block_window__aenean_eu_leo {
     font-size: 16px;
     font-family: "Exo";
@@ -418,7 +433,10 @@ header {
     margin-top: 40px;
 }
 
-
+.block_window__window-browser {
+    margin-top: 128px;
+    width: 100%;
+}
 
 .Over_1000_designers {
     background: url('img/1000_designers/Rectangle 25.png');
@@ -1250,7 +1268,9 @@ form {
     margin-top: 40px;
 }
 
-.block_window__window-browser {position: absolute;bottom: 0;}
+.block_window__window-browser {
+    margin-top: 128px;
+}
 
 .Over_1000_designers {
     background: url('img/1000_designers/Rectangle 25.png');
@@ -2054,6 +2074,7 @@ form {
     .block_window__com_block {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
         box-sizing: border-box;
         margin-top: 0px;
@@ -2880,6 +2901,7 @@ form {
     .block_window__com_block {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
         box-sizing: border-box;
         margin-top: 0;
@@ -3677,6 +3699,8 @@ form {
     .block_window__com_block {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         box-sizing: border-box;
         margin-top: 110px;
     }
@@ -3720,7 +3744,9 @@ form {
         margin-top: 40px;
     }
     .block_window__window-browser {
+        margin-top: 80px;
         width: 768px;
+        height: 322px;
     }
     .Over_1000_designers {
         background: url('img/1000_designers/Rectangle 25.png');
@@ -4476,6 +4502,8 @@ form {
     .block_window__com_block {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         box-sizing: border-box;
     }
     .block_window__new_features {
@@ -4518,8 +4546,7 @@ form {
         margin-top: 40px;
     }
     .block_window__window-browser {
-    position: absolute;
-    bottom: 0;
+        margin-top: 128px;
     }
     .Over_1000_designers {
         background: url('img/1000_designers/Rectangle 25.png');
@@ -4909,20 +4936,13 @@ form {
         flex-direction: column;
         align-items: center;
         height: auto;
+        width: auto;
     }
     .header__There_is_no {
-        font-family: "Exo", thin;
-        color: rgb(40, 40, 40);
-        line-height: 1.25;
-        text-align: center;
-        width: 708px;
-        height: 138px;
-        z-index: 243;
         font-size: 40px;
         font-family: "Exo";
         color: rgb(40, 40, 40);
         line-height: 1.25;
-        text-align: left;
         width: 532px;
         height: 93px;
         z-index: 232;
@@ -4949,27 +4969,15 @@ form {
     .block_window__com_block {
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
         box-sizing: border-box;
         margin-top: 0;
-        justify-content: flex-start;
-    }
-    .block_window__Some_awesone_features {
-        font-size: 40px;
-        font-family: "Exo";
-        color: rgb(40, 40, 40);
-        line-height: 1.25;
-        text-align: center;
-        -moz-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
-        -webkit-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
-        -ms-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
-        width: auto;
-        height: 29.1px;
-        z-index: 156;
-        margin-top: 30px;
     }
     .block_window__window-browser {
-    position: absolute;
-    bottom: 0;
+        position: absolute;
+        bottom: 0;
+        height: auto;
     }
 }
 
