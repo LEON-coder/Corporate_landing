@@ -1,7 +1,7 @@
-                                                                    @import url(https://allfont.ru/allfont.css?fonts=exo-medium);
+                                                                        @import url(https://allfont.ru/allfont.css?fonts=exo-medium);
                                                                     @import url(https://allfont.ru/allfont.css?fonts=exo-regular);
                                                                     @import url(https://allfont.ru/allfont.css?fonts=exo-italic);
-                                                             
+                                                                    @import url(https://allfont.ru/allfont.css?fonts=exo-20-medium);
                                                                     @font-face {
                                                                         font-family: 'Exo Medium', arial;
                                                                         src: local('/fonts/exo-medium_[allfont.ru].ttf');
@@ -4098,7 +4098,7 @@
                                                                             -webkit-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
                                                                             -ms-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
                                                                             width: auto;
-                                                                            height: 15.638px;
+                                                                            height: auto;
                                                                             z-index: 211;
                                                                             font-weight: 600;
                                                                         }
@@ -4108,10 +4108,9 @@
                                                                             color: rgba(40, 40, 40, 0.659);
                                                                             line-height: 1.625;
                                                                             text-align: center;
-                                                                            width: auto;
                                                                             height: auto;
                                                                             z-index: 212;
-                                                                            margin-top: 30px;
+                                                                            margin-top: 20px;
                                                                             font-weight: 500;
                                                                         }
                                                                         .Resposive_design {
@@ -4412,7 +4411,7 @@
                                                                             align-items: center;
                                                                             position: absolute;
                                                                             top: 190px;
-                                                                            right: 150px;
+                                                                            right: 12%;
                                                                         }
                                                                         ._30_days_free_trial_for_all_ {
                                                                             font-size: 16px;
@@ -4421,6 +4420,8 @@
                                                                             line-height: 4.688;
                                                                             z-index: 138;
                                                                         }
+
+
                                                                         .arrow {
                                                                             background-image: url("ARROW.png");
                                                                             width: 56px;
