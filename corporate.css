@@ -1517,7 +1517,7 @@
                                                                         width: 68%;
                                                                     }
                                                                     
-                                                                    @media (min-width: 320px) {
+                                                                @media (min-width: 320px) {
                                                                         header {
                                                                             background: url('img/header/background\ \(1024\ x\ 768\).jpg');
                                                                             width: 100%;
@@ -1553,7 +1553,7 @@
                                                                             margin-left: 23px;
                                                                             margin-right: auto;
                                                                         }
-                                                                        .Ellipse {}
+                                                                       
                                                                         .header_Try_now {
                                                                             font-size: 16px;
                                                                             color: rgb(255, 255, 255);
@@ -1589,6 +1589,7 @@
                                                                             margin-top: 0;
                                                                             flex-direction: column;
                                                                             align-items: center;
+                                                                            height: auto;
                                                                         }
                                                                         .new_design__left-block {
                                                                             display: flex;
@@ -1629,17 +1630,22 @@
                                                                             z-index: 234;
                                                                             margin-top: 30px;
                                                                         }
-                                                                        .new_design__right-block {
-                                                                            z-index: 45;
-                                                                            width: 100%;
-                                                                            display: flex;
-                                                                            justify-content: center;
-                                                                            align-items: center;
-                                                                            bottom: -160px;
-                                                                        }
+                                                                     
                                                                         .new_design__right-block img {
                                                                             width: 100%;
                                                                         }
+
+
+                                                                        .new_design__right-block {
+                                                                            z-index: 45;
+                                                                            width: 100%;
+                                                                            display: none;
+                                                                            justify-content: center;
+                                                                            align-items: center;
+                                                                            position: inherit;
+                                                                            height: auto;
+                                                                        }
+
                                                                         .new_features {
                                                                             display: flex;
                                                                             width: 100%;
@@ -1653,15 +1659,17 @@
                                                                             background-repeat: no-repeat;
                                                                             background-size: inherit;
                                                                         }
-                                                                        .Earphones {
-                                                                            background-image: url("Earphones.png");
-                                                                            position: absolute;
-                                                                            top: -20px;
-                                                                            width: 40%;
-                                                                            height: auto;
-                                                                            z-index: 4;
-                                                                        }
-                                                                        .new_features__text {
+                                                                      .Earphones {
+                                                                          background-image: url(Earphones.png);
+                                                                          position: absolute;
+                                                                          top: -30px;
+                                                                          width: 30%;
+                                                                          height: auto;
+                                                                          z-index: 4;
+                                                                          left: 50px;
+                                                                      }
+                                                                        
+                                                                     .new_features__text {
                                                                             font-size: 16px;
                                                                             font-family: "Exo";
                                                                             color: rgb(255, 109, 109);
@@ -1764,7 +1772,7 @@
                                                                             position: absolute;
                                                                             z-index: 0;
                                                                             width: 100%;
-                                                                            top: -50px;
+                                                                            top: -170px;
                                                                             left: 40%;
                                                                         }
                                                                         .macbook {
@@ -1827,6 +1835,23 @@
                                                                             display: flex;
                                                                             flex-direction: column;
                                                                         }
+
+                                                                        .members__blocks_logo {
+                                                                            display: flex;
+                                                                            justify-content: center;
+                                                                            align-items: center;
+                                                                            margin-top: 80px;
+                                                                            width: 80%;
+                                                                            margin-bottom: 50px;
+                                                                            flex-direction: column;
+                                                                            flex-wrap: wrap;
+                                                                        }
+
+                                                                        .members__blocks_logo a {
+                                                                            margin-top: 40px;
+                                                                        }
+
+
                                                                         .Jonathon_Doe {
                                                                             display: flex;
                                                                             flex-direction: column;
@@ -1873,15 +1898,7 @@
                                                                             z-index: 174;
                                                                             margin-top: 50px;
                                                                         }
-                                                                        .members__blocks_logo {
-                                                                            display: flex;
-                                                                            justify-content: space-between;
-                                                                            align-items: center;
-                                                                            margin-top: 80px;
-                                                                            width: 80%;
-                                                                            margin-bottom: 50px;
-                                                                            flex-wrap: wrap;
-                                                                        }
+                                                                     
                                                                         .block_window {
                                                                             background: url('img/block_window/Rectangle 23.png');
                                                                             width: 100%;
@@ -1894,7 +1911,7 @@
                                                                         .block_window__com_block {
                                                                             display: flex;
                                                                             flex-direction: column;
-                                                                            justify-content: center;
+                                                                            justify-content: flex-start;
                                                                             align-items: center;
                                                                             box-sizing: border-box;
                                                                             margin-top: 0px;
@@ -1910,7 +1927,8 @@
                                                                             -ms-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
                                                                             width: 135.554px;
                                                                             z-index: 157;
-                                                                            margin-top: -300px;
+                                                                            margin-top: 40px;
+                                                                            height: auto;
                                                                         }
                                                                         .block_window__Some_awesone_features {
                                                                             font-size: 40px;
@@ -1976,7 +1994,7 @@
                                                                             margin-top: -70px;
                                                                         }
                                                                         .Over_1000_designers_are_using {
-                                                                            font-size: 30px;
+                                                                            font-size: 24px;
                                                                             color: rgb(255, 255, 255);
                                                                             line-height: 1.25;
                                                                             text-align: center;
@@ -1995,6 +2013,7 @@
                                                                             align-items: center;
                                                                             width: 90%;
                                                                             flex-direction: column;
+                                                                            position: relative;
                                                                         }
                                                                         #input {
                                                                             font-size: 16px;
@@ -2044,7 +2063,7 @@
                                                                             display: flex;
                                                                             position: absolute;
                                                                             align-items: center;
-                                                                            top: 380px;
+                                                                            top: 360px;
                                                                         }
                                                                         ._30_days_free_trial_for_all_ {
                                                                             font-size: 16px;
@@ -2323,6 +2342,33 @@
                                                                         .Start_Ex_block__right img {
                                                                             width: 68%;
                                                                         }
+                                                                    }
+
+
+                                                                    @media (min-width: 375px) {
+                                                                        .figures {
+                                                                            margin-left: 0px;
+                                                                            width: auto;
+                                                                            display: flex;
+                                                                            position: absolute;
+                                                                            align-items: center;
+                                                                            top: 330px;
+                                                                        }
+
+                                                                        .Start_Ex_block__right {
+                                                                            opacity: 0.8;
+                                                                            z-index: 0;
+                                                                            display: flex;
+                                                                            top: -80px;
+                                                                            margin-right: 0;
+                                                                            width: 20%;
+                                                                            position: absolute;
+                                                                            margin-top: 0;
+                                                                            right: 0px;
+                                                                        }
+
+
+
                                                                     }
                                                                     
                                                                     @media (min-width: 768px) {
