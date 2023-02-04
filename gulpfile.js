@@ -6,7 +6,6 @@ const autoprefixer = require('gulp-autoprefixer');
 const cleanCSS = require('gulp-clean-css');
 const babel = require('gulp-babel');
 const uglify = require('gulp-uglify');
-const del = require('del');
 const { stream } = require("browser-sync");
 const browserSync = require('browser-sync').create();
 const imagemin = require("gulp-imagemin");
@@ -32,7 +31,7 @@ function pugToHtml() {
 
 
 
-function CSScompiling() {
+/*function CSScompiling() {
     return gulp.src("./dev/scss/styles.scss")
     .pipe(plumber())  
      .pipe(cleanCSS())
@@ -43,7 +42,7 @@ function CSScompiling() {
     .pipe(plumber.stop())
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('./'));
-}
+}*/
 
 
 function script() {
@@ -98,7 +97,7 @@ function watcher() {
     });
     gulp.watch('dev/pug/**/*.pug', pugToHtml);
     gulp.watch('dev/js/main.js', script);
-    gulp.watch('dev/scss/**/*scss', CSScompiling);
+  //gulp.watch('dev/scss/**/*scss', CSScompiling);
     gulp.watch('build/*.html').on('change', browserSync.reload);
     gulp.watch('dev/images/**/*.{jpg,png,gif,svg}', imageCompressing);
     gulp.watch('dev/js', script);
@@ -124,4 +123,4 @@ function imageCompressing() {
 }
 
 
-exports.default = gulp.parallel(pugToHtml, CSScompiling, script, watcher, imageCompressing, svgSpriteBuild);
+exports.default = gulp.parallel(pugToHtml, /*CSScompiling,*/ /*script,*/ watcher, imageCompressing, /*svgSpriteBuild*/);
