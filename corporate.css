@@ -1,36 +1,31 @@
-                                                                    @import url(https://allfont.ru/allfont.css?fonts=exo-medium);
-                                                                    @import url(https://allfont.ru/allfont.css?fonts=exo-regular);
-                                                                    @import url(https://allfont.ru/allfont.css?fonts=exo-italic);
-                                                                    @import url(https://allfont.ru/allfont.css?fonts=exo-20-medium);
-                                                                    
-                                                                    
-                                                                    
+
+
                                                                     @font-face {
                                                                         font-family: 'Exo Medium', arial;
-                                                                        src: local('/fonts/exo-medium_[allfont.ru].ttf');
+                                                                        src: local('fonts/exo-medium.ttf');
                                                                     }
-                                                                    
+
                                                                     @font-face {
                                                                         font-family: 'Exo Regular', arial;
-                                                                        src: local('./fonts/exo-regular_[allfont.ru].ttf');
+                                                                        src: local('fonts/exo-regular.ttf');
                                                                     }
-                                                                    
+
                                                                     @font-face {
                                                                         font-family: 'Exo Italic', arial;
-                                                                        src: local('./fonts/exo-italic_[allfont.ru].ttf');
+                                                                        src: local('fonts/exo-italic.ttf');
                                                                     }
-                                                                    
+
                                                                     * {
                                                                         padding: 0;
                                                                         margin: 0;
                                                                     }
-                                                                    
+
                                                                     body {
                                                                         box-sizing: border-box;
                                                                         width: 100%;
                                                                         margin: 0;
                                                                     }
-                                                                    
+
                                                                     header {
                                                                         background: url('img/header/background\ \(1920\ x\ 1084\).jpg');
                                                                         width: 100%;
@@ -38,7 +33,7 @@
                                                                         display: flex;
                                                                         justify-content: center;
                                                                     }
-                                                                    
+
                                                                     .header_blocks {
                                                                         display: flex;
                                                                         justify-content: center;
@@ -46,7 +41,7 @@
                                                                         align-items: center;
                                                                         height: auto;
                                                                     }
-                                                                    
+
                                                                     .header__There_is_no {
                                                                         font-size: 60px;
                                                                         font-family: "Exo", thin;
@@ -57,12 +52,12 @@
                                                                         height: 138px;
                                                                         z-index: 243;
                                                                     }
-                                                                    
+
                                                                     .header__play {
                                                                         display: flex;
                                                                         margin-top: 60px;
                                                                     }
-                                                                    
+
                                                                     .Polygon {
                                                                         position: absolute;
                                                                         display: flex;
@@ -71,7 +66,7 @@
                                                                         margin-left: 23px;
                                                                         margin-right: auto;
                                                                     }
-                                                                    
+
                                                                     .header_Try_now {
                                                                         font-size: 16px;
                                                                         color: rgb(255, 255, 255);
@@ -90,17 +85,17 @@
                                                                         align-items: center;
                                                                         margin-top: 30px;
                                                                     }
-                                                                    
-                                                                 
-                                                             
-                                                                    
+
+
+
+
                                                                     .new_design__left-block {
                                                                         display: flex;
                                                                         flex-direction: column;
                                                                         margin-left: 200px;
                                                                         margin-top: 180px;
                                                                     }
-                                                                    
+
                                                                     .new_design__text {
                                                                         font-size: 16px;
                                                                         color: rgb(255, 109, 109);
@@ -111,11 +106,11 @@
                                                                         height: 13px;
                                                                         z-index: 233;
                                                                     }
-                                                                    
+
                                                                     .ellipsis {
                                                                         color: red;
                                                                     }
-                                                                    
+
                                                                     .new_design__there_is_no_other {
                                                                         font-size: 40px;
                                                                         color: rgb(40, 40, 40);
@@ -127,7 +122,7 @@
                                                                         z-index: 232;
                                                                         margin-top: 30px;
                                                                     }
-                                                                    
+
                                                                     .new_design__aenean_eu_leo_quam {
                                                                         font-size: 16px;
                                                                         color: rgba(40, 40, 40, 0.659);
@@ -138,11 +133,11 @@
                                                                         z-index: 234;
                                                                         margin-top: 30px;
                                                                     }
-                                                                    
+
                                                                     .new_design__right-block {
                                                                         z-index: 45;
                                                                     }
-                                                                    
+
                                                                     .new_features {
                                                                         background: url('img/new_features/Rectangle 5.jpg');
                                                                         display: flex;
@@ -152,7 +147,7 @@
                                                                         align-items: center;
                                                                         z-index: 0;
                                                                     }
-                                                                    
+
                                                                     .Earphones {
                                                                         background-image: url("Earphones.png");
                                                                         position: absolute;
@@ -161,7 +156,7 @@
                                                                         height: 215px;
                                                                         z-index: 1;
                                                                     }
-                                                                    
+
                                                                     .new_features__text {
                                                                         font-size: 16px;
                                                                         font-family: "Exo";
@@ -174,9 +169,9 @@
                                                                         width: 135.554px;
                                                                         z-index: 226;
                                                                         margin-top: 110px;
-                                                                    }                                                                    
-                                                                  
-                                                                    
+                                                                    }
+
+
                                                                     .new_features__some_awesone_features {
                                                                         font-size: 40px;
                                                                         font-family: "Exo";
@@ -191,11 +186,11 @@
                                                                         z-index: 225;
                                                                         margin-top: 30px;
                                                                     }
-                                                                    
+
                                                                     .new_features__picture {
                                                                         background: url('img/new_features/Some_awesone_ features/picture.png');
                                                                     }
-                                                                    
+
                                                                     .Some_awesone_features {
                                                                         font-size: 22px;
                                                                         font-family: "Exo";
@@ -210,7 +205,7 @@
                                                                         z-index: 211;
                                                                         font-weight: 600;
                                                                     }
-                                                                    
+
                                                                     .new_features__Donec_sed_odio {
                                                                         font-size: 16px;
                                                                         font-family: "Exo";
@@ -223,16 +218,16 @@
                                                                         margin-top: 30px;
                                                                         font-weight: 500;
                                                                     }
-                                                                    
-                                                                
-                                                                    
+
+
+
                                                                     .Resposive_design__main-block {
                                                                         display: flex;
                                                                         justify-content: space-around;
                                                                         z-index: 0;
                                                                         align-items: center;
                                                                     }
-                                                                    
+
                                                                     .Resposive_design__left-block {
                                                                         display: flex;
                                                                         justify-content: flex-start;
@@ -240,7 +235,7 @@
                                                                         z-index: 5;
                                                                         position: inherit;
                                                                     }
-                                                                    
+
                                                                     .Resposive_design__left-block_rectangle {
                                                                         opacity: 0.8;
                                                                         z-index: 0;
@@ -248,7 +243,7 @@
                                                                         margin-left: -210px;
                                                                         position: absolute;
                                                                     }
-                                                                    
+
                                                                     .macbook {
                                                                         display: flex;
                                                                         height: fit-content;
@@ -257,12 +252,12 @@
                                                                         z-index: 7;
                                                                         margin-top: 80px;
                                                                     }
-                                                                    
+
                                                                     .Resposive_design__right-block {
                                                                         display: flex;
                                                                         flex-direction: column;
                                                                     }
-                                                                    
+
                                                                     .Resposive_design__right-block__text {
                                                                         font-size: 16px;
                                                                         color: rgb(255, 109, 109);
@@ -274,9 +269,9 @@
                                                                         z-index: 10;
                                                                         display: flex;
                                                                     }
-                                                                    
-                                                                
-                                                                    
+
+
+
                                                                     .members {
                                                                         background: url('img/members/Group 4.png');
                                                                         width: 100%;
@@ -287,15 +282,15 @@
                                                                         align-items: center;
                                                                         justify-content: center;
                                                                     }
-                                                              
-                                                                    
+
+
                                                                     .Jonathon_Doe {
                                                                         display: flex;
                                                                         flex-direction: column;
                                                                         justify-content: center;
                                                                         align-items: center;
                                                                     }
-                                                                    
+
                                                                     .members__Jonathon_Doe {
                                                                         font-size: 22px;
                                                                         font-family: "Exo";
@@ -309,7 +304,7 @@
                                                                         height: 15.875px;
                                                                         z-index: 175;
                                                                     }
-                                                                    
+
                                                                     .members__Co_Founder {
                                                                         font-size: 16px;
                                                                         font-family: "Exo";
@@ -324,7 +319,7 @@
                                                                         z-index: 176;
                                                                         margin-top: 20px;
                                                                     }
-                                                                    
+
                                                                     .members__Aenean_eu_leo_quam {
                                                                         font-size: 16px;
                                                                         font-family: "Exo";
@@ -337,7 +332,7 @@
                                                                         z-index: 174;
                                                                         margin-top: 50px;
                                                                     }
-                                                                    
+
                                                                     .members__blocks_logo {
                                                                         display: flex;
                                                                         justify-content: space-between;
@@ -345,7 +340,7 @@
                                                                         margin-top: 50px;
                                                                         width: 65%;
                                                                     }
-                                                                    
+
                                                                     .block_window {
                                                                         background: url('img/block_window/Rectangle 23.png');
                                                                         width: 100%;
@@ -355,7 +350,7 @@
                                                                         justify-content: center;
                                                                         align-items: center;
                                                                     }
-                                                                    
+
                                                                     .block_window__com_block {
                                                                         display: flex;
                                                                         flex-direction: column;
@@ -364,11 +359,11 @@
                                                                         box-sizing: border-box;
                                                                         margin-top: 110px;
                                                                     }
-                                                                    
-                                                             
-                                                                    
-                                                                   
-                                                                    
+
+
+
+
+
                                                                     .block_window__aenean_eu_leo {
                                                                         font-size: 16px;
                                                                         color: rgba(40, 40, 40, 0.659);
@@ -380,12 +375,12 @@
                                                                         z-index: 154;
                                                                         margin-top: 40px;
                                                                     }
-                                                                    
+
                                                                     .block_window__window-browser {
                                                                         margin-top: 128px;
                                                                         width: 100%;
                                                                     }
-                                                                    
+
                                                                     .Over_1000_designers {
                                                                         background: url('img/1000_designers/Rectangle 25.png');
                                                                         width: 100%;
@@ -393,7 +388,7 @@
                                                                         display: flex;
                                                                         justify-content: center;
                                                                     }
-                                                                    
+
                                                                     .Over_1000_designers__com-block {
                                                                         display: flex;
                                                                         justify-content: center;
@@ -402,7 +397,7 @@
                                                                         box-sizing: border-box;
                                                                         margin-top: 120px;
                                                                     }
-                                                                    
+
                                                                     .Over_1000_designers__new_features {
                                                                         font-size: 16px;
                                                                         font-family: "Exo";
@@ -417,9 +412,9 @@
                                                                         z-index: 146;
                                                                         margin-top: -150px;
                                                                     }
-                                                                    
-                                                                  
-                                                                    
+
+
+
                                                                     form {
                                                                         display: flex;
                                                                         justify-content: space-around;
@@ -427,7 +422,7 @@
                                                                         height: auto;
                                                                         align-items: center;
                                                                     }
-                                                                    
+
                                                                     #input {
                                                                         font-size: 16px;
                                                                         font-family: "Exo";
@@ -446,7 +441,7 @@
                                                                         padding-left: 30px;
                                                                         margin-right: 30px;
                                                                     }
-                                                                    
+
                                                                     .submit {
                                                                         border-width: 1px;
                                                                         border-color: rgb(255, 109, 109);
@@ -469,7 +464,7 @@
                                                                         line-height: 3.72;
                                                                         z-index: 142;
                                                                     }
-                                                                    
+
                                                                     .figures {
                                                                         margin-bottom: 0;
                                                                         margin-top: 30px;
@@ -478,7 +473,7 @@
                                                                         display: flex;
                                                                         align-items: center;
                                                                     }
-                                                                    
+
                                                                     ._30_days_free_trial_for_all_ {
                                                                         font-size: 16px;
                                                                         font-family: "Exo";
@@ -486,7 +481,7 @@
                                                                         line-height: 4.688;
                                                                         z-index: 138;
                                                                     }
-                                                                    
+
                                                                     .arrow {
                                                                         background-image: url("ARROW.png");
                                                                         width: 56px;
@@ -497,7 +492,7 @@
                                                                         position: absolute;
                                                                         margin-top: 13px;
                                                                     }
-                                                                    
+
                                                                     .Over_1000_designers__By_Signing_up {
                                                                         font-size: 16px;
                                                                         font-family: "Exo";
@@ -506,14 +501,14 @@
                                                                         z-index: 139;
                                                                         margin-top: 30px;
                                                                     }
-                                                                    
+
                                                                     .terms {
                                                                         font-size: 16px;
                                                                         font-family: "Exo";
                                                                         color: rgba(246, 245, 243, 0.6);
                                                                         line-height: 4.688;
                                                                     }
-                                                                    
+
                                                                     .Start_Ex_block {
                                                                         background: #ffffff;
                                                                         width: 100%;
@@ -522,19 +517,19 @@
                                                                         justify-content: space-between;
                                                                         position: relative;
                                                                     }
-                                                                    
+
                                                                     .Start_block {
                                                                         display: flex;
                                                                         flex-direction: column;
                                                                         margin-right: 60px;
                                                                     }
-                                                                    
+
                                                                     .Start_block_start_Ex {
                                                                         display: flex;
                                                                         flex-direction: row;
                                                                         align-items: center;
                                                                     }
-                                                                    
+
                                                                     .Start_block__Start {
                                                                         font-size: 48px;
                                                                         font-family: "Lato";
@@ -547,12 +542,12 @@
                                                                         margin-left: -23px;
                                                                         margin-right: -20px;
                                                                     }
-                                                                    
+
                                                                     .Start_block__Start__Polygon {
                                                                         display: flex;
                                                                         margin-left: -20px;
                                                                     }
-                                                                    
+
                                                                     .Start_block__Aenean_lacinia_bibendum {
                                                                         font-size: 14px;
                                                                         font-family: "Exo";
@@ -563,22 +558,19 @@
                                                                         height: 89px;
                                                                         z-index: 92;
                                                                     }
-                                                                    
+
                                                                     .Support_block {
                                                                         display: flex;
                                                                         flex-direction: column;
                                                                         margin-right: 90px;
                                                                     }
-                                                                    
+
                                                                     .Start_Ex_block__common {
-                                                                        display: flex;
                                                                         justify-content: space-around;
-                                                                        align-items: center;
-                                                                        width: 100%;
-                                                                        margin-left: auto;
-                                                                        margin-right: auto;
+                                                                        align-items: flex-start;
+                                                                        padding-left: 150px;
                                                                     }
-                                                                    
+
                                                                     .Start_Ex_block__left {
                                                                         display: flex;
                                                                         justify-content: space-between;
@@ -587,7 +579,7 @@
                                                                         align-items: center;
                                                                         margin-right: 0;
                                                                     }
-                                                                    
+
                                                                     .Support_block__list {
                                                                         font-size: 14px;
                                                                         font-family: "Exo";
@@ -599,16 +591,16 @@
                                                                         z-index: 96;
                                                                         margin-top: 30px;
                                                                     }
-                                                                    
+
                                                                     .Support_block__list li {
                                                                         list-style: none;
                                                                     }
-                                                                    
+
                                                                     .Support_block__list li a {
                                                                         text-decoration: none;
                                                                         color: #717171;
                                                                     }
-                                                                    
+
                                                                     .Support_text {
                                                                         font-size: 22px;
                                                                         font-family: "Exo";
@@ -623,14 +615,14 @@
                                                                         z-index: 95;
                                                                         margin-top: -16px;
                                                                     }
-                                                                    
+
                                                                     .About_US_block {
                                                                         display: flex;
                                                                         width: 133px;
                                                                         flex-direction: column;
                                                                         margin-right: 30px;
                                                                     }
-                                                                    
+
                                                                     .About_US__text {
                                                                         font-size: 22px;
                                                                         font-family: "Exo";
@@ -645,7 +637,7 @@
                                                                         z-index: 95;
                                                                         margin-top: -16px;
                                                                     }
-                                                                    
+
                                                                     .About_US_block__list {
                                                                         font-size: 14px;
                                                                         font-family: "Exo";
@@ -657,15 +649,15 @@
                                                                         z-index: 96;
                                                                         margin-top: 30px;
                                                                     }
-                                                                    
+
                                                                     .About_US_block__list li {
                                                                         list-style: none;
                                                                     }
-                                                                    
+
                                                                     .About_US_block__list li a {
                                                                         text-decoration: none;
                                                                     }
-                                                                    
+
                                                                     .About_US {
                                                                         font-size: 22px;
                                                                         font-family: "Exo";
@@ -682,13 +674,13 @@
                                                                         height: 15.875px;
                                                                         z-index: 99;
                                                                     }
-                                                                    
+
                                                                     .Get_Newsletter_block {
                                                                         display: flex;
                                                                         flex-direction: column;
                                                                         margin-right: 0px;
                                                                     }
-                                                                    
+
                                                                     .Get_Newsletter__text {
                                                                         font-size: 22px;
                                                                         font-family: "Exo";
@@ -703,20 +695,20 @@
                                                                         z-index: 109;
                                                                         margin-top: -24px;
                                                                     }
-                                                                    
+
                                                                     .Get_Newsletter_block__input {
                                                                         display: flex;
                                                                         margin-top: 42px;
                                                                         justify-content: center;
                                                                     }
-                                                                    
+
                                                                     .Get_Newsletter__Rectangle {
                                                                         display: flex;
                                                                         margin-left: -2px;
                                                                         height: auto;
                                                                         z-index: 6;
                                                                     }
-                                                                    
+
                                                                     .Get_Newsletter__10 {
                                                                         margin-left: 0;
                                                                         display: flex;
@@ -725,7 +717,7 @@
                                                                         position: absolute;
                                                                         z-index: 6;
                                                                     }
-                                                                    
+
                                                                     #Get_Newsletter_block__Rounded_Rectangle_2 {
                                                                         border-width: 1px;
                                                                         border-color: rgb(78, 78, 94);
@@ -743,11 +735,7 @@
                                                                         z-index: 105;
                                                                         padding-left: 20px;
                                                                     }
-                                                                    
-                                                                    .Start_Ex_block {}
-                                                                    
-                                                                    .Start_Ex_block__Ex {}
-                                                                    
+
                                                                     .Start_Ex_block__right {
                                                                         opacity: 0.8;
                                                                         z-index: 90;
@@ -759,16 +747,16 @@
                                                                         margin-top: 0;
                                                                         right: 0;
                                                                     }
-                                                                    
+
                                                                     .Start_Ex_block__right img {
                                                                         width: 68%;
                                                                     }
-                                                                    
+
                                                                     .header__play {
                                                                         display: flex;
                                                                         margin-top: 60px;
                                                                     }
-                                                                    
+
                                                                     .Polygon {
                                                                         position: absolute;
                                                                         display: flex;
@@ -777,7 +765,7 @@
                                                                         margin-left: 23px;
                                                                         margin-right: auto;
                                                                     }
-                                                                    
+
                                                                     .header_Try_now {
                                                                         font-size: 16px;
                                                                         color: rgb(255, 255, 255);
@@ -795,7 +783,7 @@
                                                                         align-items: center;
                                                                         margin-top: 30px;
                                                                     }
-                                                                    
+
                                                                     .header_No_need_to_add {
                                                                         font-size: 14px;
                                                                         color: rgba(40, 40, 40, 0.6);
@@ -805,7 +793,7 @@
                                                                         font-family: 'Exo Regular', arial;
                                                                         z-index: 244;
                                                                     }
-                                                                    
+
                                                                     .new_design {
                                                                         display: flex;
                                                                         width: 100%;
@@ -818,7 +806,7 @@
                                                                         position: relative;
                                                                         align-items: center;
                                                                     }
-                                                                    
+
                                                                     .new_design__left-block {
                                                                         display: flex;
                                                                         flex-direction: column;
@@ -828,16 +816,16 @@
                                                                         padding-left: 200px;
                                                                         margin-top: 0px;
                                                                     }
-                                                                    
-                                                                 
-                                                                    
+
+
+
                                                                     .ellipsis {
                                                                         color: red;
                                                                     }
-                                                                    
-                                                                                                                                        
-                                                                    
-                                                                    
+
+
+
+
                                                                     .new_design__right-block {
                                                                         z-index: 45;
                                                                         position: absolute;
@@ -845,11 +833,11 @@
                                                                         width: auto;
                                                                         height: 720px;
                                                                     }
-                                                                    
+
                                                                     .new_design__right-block img {
                                                                         width: auto;
                                                                     }
-                                                                    
+
                                                                     .new_features {
                                                                         background: url('img/new_features/Rectangle 5 (1920 x 900).jpg');
                                                                         display: flex;
@@ -863,7 +851,7 @@
                                                                         position: relative;
                                                                         background-size: cover;
                                                                     }
-                                                                    
+
                                                                     .new_features__text {
                                                                         font-size: 16px;
                                                                         font-family: "Exo";
@@ -877,7 +865,7 @@
                                                                         z-index: 226;
                                                                         margin-top: 110px;
                                                                     }
-                                                                    
+
                                                                     .new_features__block {
                                                                         display: flex;
                                                                         justify-content: space-around;
@@ -885,7 +873,7 @@
                                                                         margin-top: 0px;
                                                                         height: auto;
                                                                     }
-                                                                    
+
                                                                     .new_features__some_awesone_features {
                                                                         font-size: 40px;
                                                                         font-family: "Exo";
@@ -900,11 +888,11 @@
                                                                         z-index: 225;
                                                                         margin-top: 30px;
                                                                     }
-                                                                    
+
                                                                     .new_features__picture {
                                                                         background: url('img/new_features/Some_awesone_ features/picture.png');
                                                                     }
-                                                                    
+
                                                                     .Some_awesone_features {
                                                                         font-size: 22px;
                                                                         font-family: "Exo";
@@ -919,7 +907,7 @@
                                                                         z-index: 211;
                                                                         font-weight: 600;
                                                                     }
-                                                                    
+
                                                                     .new_features__Donec_sed_odio {
                                                                         font-size: 16px;
                                                                         font-family: "Exo";
@@ -932,7 +920,7 @@
                                                                         margin-top: 30px;
                                                                         font-weight: 500;
                                                                     }
-                                                                    
+
                                                                     .Resposive_design {
                                                                         background: #ffffff;
                                                                         width: 100%;
@@ -941,9 +929,9 @@
                                                                         position: relative;
                                                                         flex-direction: row;
                                                                     }
-                                                                    
-                                                                    
-                                                                    
+
+
+
                                                                     .Resposive_design__left-block {
                                                                         display: flex;
                                                                         justify-content: flex-start;
@@ -952,7 +940,7 @@
                                                                         position: inherit;
                                                                         width: 30%;
                                                                     }
-                                                                    
+
                                                                     .Resposive_design__left-block_rectangle {
                                                                         opacity: 0.8;
                                                                         margin-top: -360px;
@@ -961,7 +949,7 @@
                                                                         width: 34%;
                                                                         left: 0;
                                                                     }
-                                                                    
+
                                                                     .macbook {
                                                                         display: flex;
                                                                         height: fit-content;
@@ -970,14 +958,14 @@
                                                                         z-index: 7;
                                                                         margin-top: 190px;
                                                                     }
-                                                                    
+
                                                                     .Resposive_design__right-block {
                                                                         display: flex;
                                                                         flex-direction: column;
                                                                         align-items: flex-start;
                                                                         width: 50%;
                                                                     }
-                                                                    
+
                                                                     .Resposive_design__right-block__resposive_design {
                                                                         font-size: 50px;
                                                                         color: rgb(40, 40, 40);
@@ -987,7 +975,7 @@
                                                                         font-family: 'Exo Medium', arial;
                                                                         z-index: 162;
                                                                     }
-                                                                    
+
                                                                     .Resposive_design__right-block__aenean_eu_leo_quam {
                                                                         font-size: 45px;
                                                                         color: rgba(40, 40, 40, 0.659);
@@ -998,7 +986,7 @@
                                                                         z-index: 164;
                                                                         margin-top: 20px;
                                                                     }
-                                                                    
+
                                                                     .members {
                                                                         background: url('img/members/Group 4.png');
                                                                         width: 100%;
@@ -1011,21 +999,21 @@
                                                                         justify-content: center;
                                                                         margin-top: 380px;
                                                                     }
-                                                                    
+
                                                                     .members__blocks {
                                                                         display: flex;
                                                                         justify-content: center;
                                                                         width: 90%;
                                                                         flex-direction: row;
                                                                     }
-                                                                    
+
                                                                     .Jonathon_Doe {
                                                                         display: flex;
                                                                         flex-direction: column;
                                                                         justify-content: center;
                                                                         align-items: center;
                                                                     }
-                                                                    
+
                                                                     .members__Jonathon_Doe {
                                                                         font-size: 22px;
                                                                         font-family: "Exo";
@@ -1039,7 +1027,7 @@
                                                                         height: 15.875px;
                                                                         z-index: 175;
                                                                     }
-                                                                    
+
                                                                     .members__Co_Founder {
                                                                         font-size: 16px;
                                                                         font-family: "Exo";
@@ -1054,7 +1042,7 @@
                                                                         z-index: 176;
                                                                         margin-top: 20px;
                                                                     }
-                                                                    
+
                                                                     .members__Aenean_eu_leo_quam {
                                                                         font-size: 16px;
                                                                         font-family: "Exo";
@@ -1067,7 +1055,7 @@
                                                                         z-index: 174;
                                                                         margin-top: 50px;
                                                                     }
-                                                                    
+
                                                                     .members__blocks_logo {
                                                                         display: flex;
                                                                         justify-content: space-between;
@@ -1075,7 +1063,7 @@
                                                                         margin-top: 110px;
                                                                         width: 70%;
                                                                     }
-                                                                    
+
                                                                     .block_window {
                                                                         background: url('img/block_window/Rectangle 23.png');
                                                                         width: 100%;
@@ -1087,7 +1075,7 @@
                                                                         align-items: center;
                                                                         height: 730px;
                                                                     }
-                                                                    
+
                                                                     .block_window__com_block {
                                                                         display: flex;
                                                                         flex-direction: column;
@@ -1097,7 +1085,7 @@
                                                                         box-sizing: border-box;
                                                                         margin-top: 80px;
                                                                     }
-                                                                    
+
                                                                     .block_window__new_features {
                                                                         font-size: 16px;
                                                                         color: rgb(255, 109, 109);
@@ -1112,7 +1100,7 @@
                                                                         z-index: 157;
                                                                         margin-top: -40px;
                                                                     }
-                                                                    
+
                                                                     .block_window__Some_awesone_features {
                                                                         font-size: 40px;
                                                                         color: rgb(40, 40, 40);
@@ -1127,13 +1115,13 @@
                                                                         z-index: 156;
                                                                         margin-top: 30px;
                                                                     }
-                                                                    
-                                                                   
-                                                                    
+
+
+
                                                                     .block_window__window-browser {
                                                                         margin-top: 128px;
                                                                     }
-                                                                    
+
                                                                     .Over_1000_designers {
                                                                         background: url('img/1000_designers/Rectangle 25.png');
                                                                         width: 100%;
@@ -1142,7 +1130,7 @@
                                                                         justify-content: center;
                                                                         z-index: 5;
                                                                     }
-                                                                    
+
                                                                     .Over_1000_designers__com-block {
                                                                         display: flex;
                                                                         justify-content: center;
@@ -1153,9 +1141,9 @@
                                                                         margin-top: 120px;
                                                                         z-index: 4;
                                                                     }
-                                                                    
-                                                                    
-                                                                    
+
+
+
                                                                     .Over_1000_designers_are_using {
                                                                         font-size: 40px;
                                                                         color: rgb(255, 255, 255);
@@ -1169,7 +1157,7 @@
                                                                         z-index: 145;
                                                                         margin-top: 30px;
                                                                     }
-                                                                    
+
                                                                     form {
                                                                         display: flex;
                                                                         justify-content: space-around;
@@ -1179,7 +1167,7 @@
                                                                         width: 60%;
                                                                         flex-direction: row;
                                                                     }
-                                                                    
+
                                                                     #input {
                                                                         font-size: 16px;
                                                                         font-family: "Exo";
@@ -1199,7 +1187,7 @@
                                                                         padding-left: 30px;
                                                                         margin-right: 30px;
                                                                     }
-                                                                    
+
                                                                     .submit {
                                                                         border-width: 1px;
                                                                         border-color: rgb(255, 109, 109);
@@ -1223,9 +1211,9 @@
                                                                         z-index: 142;
                                                                         margin-top: 0;
                                                                     }
-                                                                    
-                                                                   
-                                                                    
+
+
+
                                                                     ._30_days_free_trial_for_all_ {
                                                                         font-size: 16px;
                                                                         font-family: "Exo";
@@ -1233,7 +1221,7 @@
                                                                         line-height: 4.688;
                                                                         z-index: 138;
                                                                     }
-                                                                    
+
                                                                     .arrow {
                                                                         background-image: url("ARROW.png");
                                                                         width: 56px;
@@ -1244,7 +1232,7 @@
                                                                         position: absolute;
                                                                         margin-top: 13px;
                                                                     }
-                                                                    
+
                                                                     .Over_1000_designers__By_Signing_up {
                                                                         font-size: 16px;
                                                                         font-family: "Exo";
@@ -1253,14 +1241,14 @@
                                                                         z-index: 139;
                                                                         margin-top: 30px;
                                                                     }
-                                                                    
+
                                                                     .terms {
                                                                         font-size: 16px;
                                                                         font-family: "Exo";
                                                                         color: rgba(246, 245, 243, 0.6);
                                                                         line-height: 4.688;
                                                                     }
-                                                                    
+
                                                                     .Start_Ex_block {
                                                                         background: #ffffff;
                                                                         width: 100%;
@@ -1269,20 +1257,20 @@
                                                                         justify-content: space-between;
                                                                         position: relative;
                                                                     }
-                                                                    
+
                                                                     .Start_block {
                                                                         display: flex;
                                                                         flex-direction: column;
                                                                         margin-right: 20px;
                                                                         margin-left: 0;
                                                                     }
-                                                                    
+
                                                                     .Start_block_start_Ex {
                                                                         display: flex;
                                                                         flex-direction: row;
                                                                         align-items: center;
                                                                     }
-                                                                    
+
                                                                     .Start_block__Start {
                                                                         font-size: 48px;
                                                                         font-family: "Lato";
@@ -1294,12 +1282,12 @@
                                                                         z-index: 112;
                                                                         margin-left: -23px;
                                                                     }
-                                                                    
+
                                                                     .Start_block__Start__Polygon {
                                                                         display: flex;
                                                                         margin-left: -20px;
                                                                     }
-                                                                    
+
                                                                     .Start_block__Aenean_lacinia_bibendum {
                                                                         font-size: 14px;
                                                                         font-family: "Exo";
@@ -1310,14 +1298,14 @@
                                                                         height: 89px;
                                                                         z-index: 92;
                                                                     }
-                                                                    
+
                                                                     .Support_block {
                                                                         display: flex;
                                                                         flex-direction: column;
                                                                         margin-right: 80px;
                                                                         margin-top: 0;
                                                                     }
-                                                                    
+
                                                                     .Start_Ex_block__common {
                                                                         display: flex;
                                                                         justify-content: space-around;
@@ -1326,7 +1314,7 @@
                                                                         margin-left: auto;
                                                                         margin-right: auto;
                                                                     }
-                                                                    
+
                                                                     .Start_Ex_block__left {
                                                                         display: flex;
                                                                         justify-content: space-between;
@@ -1336,7 +1324,7 @@
                                                                         margin-right: 0;
                                                                         width: 70%;
                                                                     }
-                                                                    
+
                                                                     .Support_block__list {
                                                                         font-size: 14px;
                                                                         font-family: "Exo";
@@ -1348,15 +1336,15 @@
                                                                         z-index: 96;
                                                                         margin-top: 30px;
                                                                     }
-                                                                    
+
                                                                     .Support_block__list li {
                                                                         list-style: none;
                                                                     }
-                                                                    
+
                                                                     .Support_block__list li a {
                                                                         text-decoration: none;
                                                                     }
-                                                                    
+
                                                                     .Support_text {
                                                                         font-size: 22px;
                                                                         font-family: "Exo";
@@ -1371,7 +1359,7 @@
                                                                         z-index: 95;
                                                                         margin-top: -16px;
                                                                     }
-                                                                    
+
                                                                     .About_US_block {
                                                                         display: flex;
                                                                         width: 133px;
@@ -1379,7 +1367,7 @@
                                                                         margin-right: 30px;
                                                                         margin-top: 0;
                                                                     }
-                                                                    
+
                                                                     .About_US__text {
                                                                         font-size: 22px;
                                                                         font-family: "Exo";
@@ -1394,7 +1382,7 @@
                                                                         z-index: 95;
                                                                         margin-top: -16px;
                                                                     }
-                                                                    
+
                                                                     .About_US_block__list {
                                                                         font-size: 14px;
                                                                         font-family: "Exo";
@@ -1406,16 +1394,16 @@
                                                                         z-index: 96;
                                                                         margin-top: 30px;
                                                                     }
-                                                                    
+
                                                                     .About_US_block__list li {
                                                                         list-style: none;
                                                                     }
-                                                                    
+
                                                                     .About_US_block__list li a {
                                                                         text-decoration: none;
                                                                         color: #717171;
                                                                     }
-                                                                    
+
                                                                     .About_US {
                                                                         font-size: 22px;
                                                                         font-family: "Exo";
@@ -1432,14 +1420,14 @@
                                                                         height: 15.875px;
                                                                         z-index: 99;
                                                                     }
-                                                                    
+
                                                                     .Get_Newsletter_block {
                                                                         display: flex;
                                                                         flex-direction: column;
                                                                         margin-right: 0px;
                                                                         margin-left: 0;
                                                                     }
-                                                                    
+
                                                                     .Get_Newsletter__text {
                                                                         font-size: 22px;
                                                                         font-family: "Exo";
@@ -1454,20 +1442,20 @@
                                                                         z-index: 109;
                                                                         margin-top: -24px;
                                                                     }
-                                                                    
+
                                                                     .Get_Newsletter_block__input {
                                                                         display: flex;
                                                                         margin-top: 42px;
                                                                         justify-content: center;
                                                                     }
-                                                                    
+
                                                                     .Get_Newsletter__Rectangle {
                                                                         display: flex;
                                                                         margin-left: 0;
                                                                         height: auto;
                                                                         z-index: 5;
                                                                     }
-                                                                    
+
                                                                     .Get_Newsletter__10 {
                                                                         display: flex;
                                                                         align-items: center;
@@ -1477,7 +1465,7 @@
                                                                         align-items: center;
                                                                         z-index: 6;
                                                                     }
-                                                                    
+
                                                                     #Get_Newsletter_block__Rounded_Rectangle_2 {
                                                                         border-width: 1px;
                                                                         border-color: rgb(78, 78, 94);
@@ -1495,7 +1483,7 @@
                                                                         z-index: 105;
                                                                         padding-left: 20px;
                                                                     }
-                                                                    
+
                                                                     .Get_Newsletter__figure {
                                                                         display: flex;
                                                                         justify-content: center;
@@ -1503,7 +1491,7 @@
                                                                         position: relative;
                                                                         z-index: 8;
                                                                     }
-                                                                    
+
                                                                     .Start_Ex_block__right {
                                                                         opacity: 0.8;
                                                                         z-index: 0;
@@ -1515,11 +1503,11 @@
                                                                         margin-top: 0;
                                                                         right: 0px;
                                                                     }
-                                                                    
+
                                                                     .Start_Ex_block__right img {
                                                                         width: 68%;
                                                                     }
-                                                                    
+
                                                                 @media (min-width: 320px) {
                                                                         header {
                                                                             background: url('img/header/background\ \(1024\ x\ 768\).jpg');
@@ -1556,7 +1544,7 @@
                                                                             margin-left: 23px;
                                                                             margin-right: auto;
                                                                         }
-                                                                       
+
                                                                         .header_Try_now {
                                                                             font-size: 16px;
                                                                             color: rgb(255, 255, 255);
@@ -1633,7 +1621,7 @@
                                                                             z-index: 234;
                                                                             margin-top: 30px;
                                                                         }
-                                                                     
+
                                                                         .new_design__right-block img {
                                                                             width: 100%;
                                                                         }
@@ -1671,7 +1659,7 @@
                                                                           z-index: 4;
                                                                           left: 50px;
                                                                       }
-                                                                        
+
                                                                      .new_features__text {
                                                                             font-size: 16px;
                                                                             font-family: "Exo";
@@ -1901,7 +1889,7 @@
                                                                             z-index: 174;
                                                                             margin-top: 50px;
                                                                         }
-                                                                     
+
                                                                         .block_window {
                                                                             background: url('img/block_window/Rectangle 23.png');
                                                                             width: 100%;
@@ -2209,7 +2197,7 @@
                                                                             z-index: 95;
                                                                             margin-top: -16px;
                                                                         }
-                                                                      
+
                                                                         .About_US__text {                                                                            font-size: 22px;
                                                                             font-family: "Exo";
                                                                             color: rgb(40, 40, 40);
@@ -2230,7 +2218,7 @@
                                                                             margin-right: 0;
                                                                             margin-top: 50px;
                                                                         }
-                                                                        
+
                                                                         .About_US_block__list {                                                                            font-size: 14px;
                                                                             font-family: "Exo";
                                                                             color: rgba(40, 40, 40, 0.659);
@@ -2249,7 +2237,7 @@
                                                                             margin-right: 20px;
                                                                         }
 
-                                                                        
+
                                                                         .About_US_block__list li:last-child {
                                                                             margin-right:0;
                                                                         }
@@ -2371,7 +2359,7 @@
                                                                             top: 330px;
                                                                         }
 
-                                                                      
+
                                                                         .new_features__Some_awesone_features {
                                                                             align-items: center;
                                                                             display: flex;
@@ -2437,6 +2425,19 @@
                                                                             margin-bottom: 50px;
                                                                             flex-wrap: wrap;
                                                                             flex-direction: row;
+                                                                        }
+
+                                                                        .Resposive_design__main-block {
+                                                                            width: 100%;
+                                                                            flex-direction: column;
+                                                                            margin-top: 0px;
+                                                                            position: relative;
+                                                                        }
+
+                                                                        .Resposive_design__left-block_rectangle {
+                                                                            width: 100%;
+                                                                            top: -360px;
+                                                                            left: 0;
                                                                         }
 
                                                                         .members__blocks_logo a {
@@ -2520,12 +2521,12 @@
                                                                             justify-content: flex-start;
                                                                         }
 
-                                                                        #Get_Newsletter_block__Rounded_Rectangle_2 {                                                                           
-                                                                            width: 70%;                                                                       
+                                                                        #Get_Newsletter_block__Rounded_Rectangle_2 {
+                                                                            width: 70%;
                                                                         }
 
                                                                     }
-                                                                    
+
                                                                     @media (min-width: 768px) {
                                                                         header {
                                                                             background: url('img/header/background\ \(1024\ x\ 768\).jpg');
@@ -2772,10 +2773,7 @@
                                                                             width: 70%;
                                                                         }
                                                                         .Resposive_design__left-block_rectangle {
-                                                                            opacity: 0.8;
-                                                                            position: absolute;
-                                                                            z-index: 5;
-                                                                            top: 100px;
+                                                                            top: -350px;
                                                                             left: 0;
                                                                         }
                                                                         .macbook {
@@ -3318,7 +3316,7 @@
                                                                             width: 68%;
                                                                         }
                                                                     }
-                                                                    
+
                                                                     @media (min-width: 1024px) {
                                                                         header {
                                                                             background: url('img/header/background\ \(1024\ x\ 768\).jpg');
@@ -3525,12 +3523,8 @@
                                                                             font-weight: 500;
                                                                         }
                                                                         .Resposive_design {
-                                                                            background: #ffffff;
-                                                                            width: 100%;
-                                                                            z-index: 6;
-                                                                            position: relative;
-                                                                            margin-top: 0px;
                                                                             flex-direction: row;
+                                                                            height: auto;
                                                                         }
                                                                         .Resposive_design__main-block {
                                                                             display: flex;
@@ -3549,11 +3543,8 @@
                                                                             flex-direction: row;
                                                                         }
                                                                         .Resposive_design__left-block_rectangle {
-                                                                            opacity: 0.8;
-                                                                            position: absolute;
-                                                                            left: 150px;
                                                                             z-index: 7;
-                                                                            top: 42%;
+                                                                            top: -208%;
                                                                             width: auto;
                                                                         }
                                                                         .macbook {
@@ -3566,9 +3557,8 @@
                                                                             width: 100%;
                                                                         }
                                                                         .Resposive_design__right-block {
-                                                                            display: flex;
-                                                                            flex-direction: column;
                                                                             width: 80%;
+                                                                            margin-bottom: 0;
                                                                         }
                                                                         .Resposive_design__right-block__text {
                                                                             font-size: 16px;
@@ -3598,16 +3588,7 @@
                                                                             margin-top: 40px;
                                                                         }
                                                                         .members {
-                                                                            background: url('img/members/Group 4.png');
-                                                                            width: 100%;
-                                                                            height: 648px;
-                                                                            z-index: 397;
-                                                                            display: flex;
-                                                                            flex-direction: column;
-                                                                            align-items: center;
-                                                                            position: relative;
                                                                             margin-top: 50px;
-                                                                            justify-content: center;
                                                                         }
                                                                         .members__blocks {
                                                                             display: flex;
@@ -3659,11 +3640,14 @@
                                                                             margin-top: 50px;
                                                                         }
                                                                         .members__blocks_logo {
-                                                                            display: flex;
-                                                                            justify-content: space-between;
                                                                             align-items: center;
                                                                             margin-top: 110px;
-                                                                            width: 90%;
+                                                                            width: 75%;
+                                                                        }
+
+                                                                        .members__blocks_logo a {
+                                                                            width: auto;
+                                                                            margin-right: 30px;
                                                                         }
                                                                         .block_window {
                                                                             background: url('img/block_window/Rectangle 23.png');
@@ -3908,32 +3892,19 @@
                                                                             margin-top: 0;
                                                                         }
                                                                         .Start_Ex_block__common {
-                                                                            display: flex;
-                                                                            justify-content: space-around;
-                                                                            align-items: center;
-                                                                            width: 100%;
-                                                                            margin-left: auto;
-                                                                            margin-right: auto;
+                                                                            padding-top: 70px;
                                                                         }
                                                                         .Start_Ex_block__left {
-                                                                            display: flex;
-                                                                            justify-content: space-between;
-                                                                            flex-direction: row;
-                                                                            margin-left: 0;
-                                                                            align-items: center;
+                                                                            justify-content: space-around;
                                                                             margin-right: 0;
+                                                                            width: 100%;
                                                                             margin-top: 0;
+                                                                            margin-bottom: 0;
                                                                         }
                                                                         .Support_block__list {
-                                                                            font-size: 14px;
-                                                                            font-family: "Exo";
-                                                                            color: rgba(40, 40, 40, 0.659);
-                                                                            line-height: 2.143;
-                                                                            text-align: left;
-                                                                            width: 78px;
-                                                                            height: 72px;
-                                                                            z-index: 96;
-                                                                            margin-top: 30px;
+                                                                            width: auto;
+                                                                            height: auto;
+                                                                            margin-top: 0;
                                                                             padding-left: 0;
                                                                         }
                                                                         .Support_block__list li {
@@ -3943,51 +3914,26 @@
                                                                             text-decoration: none;
                                                                         }
                                                                         .Support_text {
-                                                                            font-size: 22px;
-                                                                            font-family: "Exo";
-                                                                            color: rgb(40, 40, 40);
-                                                                            line-height: 2.271;
-                                                                            text-align: left;
-                                                                            -moz-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
-                                                                            -webkit-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
-                                                                            -ms-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
-                                                                            width: 79.081px;
-                                                                            height: 18.638px;
+                                                                            width: auto;
+                                                                            height: auto;
                                                                             z-index: 95;
-                                                                            margin-top: -16px;
+                                                                            margin-top: 0;
                                                                         }
                                                                         .About_US_block {
-                                                                            display: flex;
-                                                                            width: 133px;
-                                                                            flex-direction: column;
+                                                                            width: auto;
                                                                             margin-right: 30px;
                                                                             margin-top: 0;
                                                                         }
                                                                         .About_US__text {
-                                                                            font-size: 22px;
-                                                                            font-family: "Exo";
-                                                                            color: rgb(40, 40, 40);
-                                                                            line-height: 2.271;
-                                                                            text-align: left;
-                                                                            -moz-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
-                                                                            -webkit-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
-                                                                            -ms-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
                                                                             width: auto;
-                                                                            height: 18.638px;
+                                                                            height: auto;
                                                                             z-index: 95;
-                                                                            margin-top: -16px;
+                                                                            margin-top: 0;
                                                                         }
                                                                         .About_US_block__list {
-                                                                            font-size: 14px;
-                                                                            font-family: "Exo";
-                                                                            color: rgba(40, 40, 40, 0.659);
-                                                                            line-height: 2.143;
-                                                                            text-align: left;
-                                                                            width: auto;
-                                                                            height: 72px;
-                                                                            z-index: 96;
-                                                                            margin-top: 30px;
+                                                                            height: auto;
                                                                             padding-left: 0;
+                                                                            margin-top: 0;
                                                                         }
                                                                         .About_US_block__list li {
                                                                             list-style: none;
@@ -4089,7 +4035,7 @@
                                                                             width: 68%;
                                                                         }
                                                                     }
-                                                                    
+
                                                                     @media (min-width: 1340px) {
                                                                         header {
                                                                             background: url('img/header/background.jpg');
@@ -4209,17 +4155,7 @@
                                                                             height: 93px;
                                                                             z-index: 232;
                                                                         }
-                                                                        .Start_Ex_block__right {
-                                                                            opacity: 0.8;
-                                                                            z-index: 0;
-                                                                            display: flex;
-                                                                            top: -303px;
-                                                                            margin-right: 0;
-                                                                            width: 20%;
-                                                                            position: absolute;
-                                                                            right: 0px;
-                                                                            top: -340px;
-                                                                        }
+
                                                                         .new_design__aenean_eu_leo_quam {
                                                                             font-size: 16px;
                                                                             font-family: "Exo";
@@ -4389,15 +4325,7 @@
                                                                             height: auto;
                                                                         }
                                                                         .members {
-                                                                            background: url('img/members/Group 4.png');
-                                                                            width: 100%;
-                                                                            height: 648px;
-                                                                            z-index: 21;
-                                                                            display: flex;
-                                                                            flex-direction: column;
-                                                                            align-items: center;
-                                                                            position: relative;
-                                                                            justify-content: center;
+                                                                            height: auto;
                                                                             margin-top: 0px;
                                                                         }
                                                                         .members__blocks {
@@ -4648,20 +4576,9 @@
                                                                             line-height: 4.688;
                                                                         }
                                                                         .Start_Ex_block {
-                                                                            background: #ffffff;
-                                                                            width: 100%;
-                                                                            height: 334px;
-                                                                            display: flex;
-                                                                            justify-content: space-between;
-                                                                            position: relative;
+                                                                            height: auto;
                                                                         }
-                                                                        .Start_block {
-                                                                            display: flex;
-                                                                            flex-direction: column;
-                                                                            margin-right: 20px;
-                                                                            margin-left: 0;
-                                                                            margin-top: 60px;
-                                                                        }
+
                                                                         .Start_block_start_Ex {
                                                                             display: flex;
                                                                             flex-direction: row;
@@ -4694,40 +4611,18 @@
                                                                             margin-top: 0px;
                                                                         }
                                                                         .Support_block {
-                                                                            display: flex;
-                                                                            flex-direction: column;
-                                                                            margin-right: 80px;
-                                                                            margin-top: 0;
+                                                                            width: auto;
                                                                         }
                                                                         .Start_Ex_block__common {
-                                                                            display: flex;
                                                                             justify-content: space-around;
-                                                                            align-items: center;
+                                                                            align-items: flex-start;
                                                                             width: 100%;
-                                                                            margin-left: auto;
-                                                                            margin-right: auto;
                                                                         }
-                                                                        .Start_Ex_block__left {
-                                                                            display: flex;
-                                                                            justify-content: space-around;
-                                                                            flex-direction: row;
-                                                                            margin-left: 0;
-                                                                            align-items: center;
-                                                                            margin-right: 0;
-                                                                            width: 70%;
-                                                                            margin-top: 0;
-                                                                            margin-bottom: 0;
-                                                                        }
+
                                                                         .Support_block__list {
-                                                                            font-size: 14px;
-                                                                            font-family: "Exo";
-                                                                            color: rgba(40, 40, 40, 0.659);
-                                                                            line-height: 2.143;
-                                                                            text-align: left;
-                                                                            width: 78px;
-                                                                            height: 72px;
-                                                                            z-index: 96;
-                                                                            margin-top: 30px;
+                                                                            width: auto;
+                                                                            height: auto;
+                                                                            margin-top: 0;
                                                                         }
                                                                         .Support_block__list li {
                                                                             list-style: none;
@@ -4736,51 +4631,18 @@
                                                                             text-decoration: none;
                                                                         }
                                                                         .Support_text {
-                                                                            font-size: 22px;
-                                                                            font-family: "Exo";
-                                                                            color: rgb(40, 40, 40);
-                                                                            line-height: 2.271;
-                                                                            text-align: left;
-                                                                            -moz-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
-                                                                            -webkit-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
-                                                                            -ms-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
-                                                                            width: 79.081px;
-                                                                            height: 18.638px;
-                                                                            z-index: 95;
-                                                                            margin-top: -16px;
-                                                                        }
-                                                                        .About_US_block {
-                                                                            display: flex;
-                                                                            width: 133px;
-                                                                            flex-direction: column;
-                                                                            margin-right: 30px;
+                                                                            height: auto;
                                                                             margin-top: 0;
                                                                         }
+                                                                        .About_US_block {
+                                                                            width: auto;
+                                                                        }
                                                                         .About_US__text {
-                                                                            font-size: 22px;
-                                                                            font-family: "Exo";
-                                                                            color: rgb(40, 40, 40);
-                                                                            line-height: 2.271;
-                                                                            text-align: left;
-                                                                            -moz-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
-                                                                            -webkit-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
-                                                                            -ms-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
                                                                             width: auto;
-                                                                            height: 18.638px;
-                                                                            z-index: 95;
-                                                                            margin-top: -16px;
+                                                                            height: auto;
+                                                                            margin-top: 0;
                                                                         }
-                                                                        .About_US_block__list {
-                                                                            font-size: 14px;
-                                                                            font-family: "Exo";
-                                                                            color: rgba(40, 40, 40, 0.659);
-                                                                            line-height: 2.143;
-                                                                            text-align: left;
-                                                                            width: auto;
-                                                                            height: 72px;
-                                                                            z-index: 96;
-                                                                            margin-top: 30px;
-                                                                        }
+
                                                                         .About_US_block__list li {
                                                                             list-style: none;
                                                                         }
@@ -4805,24 +4667,14 @@
                                                                             z-index: 99;
                                                                         }
                                                                         .Get_Newsletter_block {
-                                                                            display: flex;
-                                                                            flex-direction: column;
-                                                                            margin-right: 0px;
-                                                                            margin-left: 0;
+                                                                            padding-left: 95px;
+                                                                            padding-right: 95px;
                                                                         }
                                                                         .Get_Newsletter__text {
-                                                                            font-size: 22px;
-                                                                            font-family: "Exo";
-                                                                            color: rgb(40, 40, 40);
-                                                                            line-height: 2.271;
-                                                                            text-align: left;
-                                                                            -moz-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
-                                                                            -webkit-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
-                                                                            -ms-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
                                                                             width: auto;
-                                                                            height: 16.026px;
+                                                                            height: auto;
                                                                             z-index: 109;
-                                                                            margin-top: -24px;
+                                                                            margin-top: 0;
                                                                         }
                                                                         .Get_Newsletter_block__input {
                                                                             display: flex;
@@ -4882,7 +4734,7 @@
                                                                             width: 68%;
                                                                         }
                                                                     }
-                                                                    
+
                                                                     @media (min-width: 1840px) {
                                                                         header {
                                                                             background: url('img/header/4K_header_back.jpg');
@@ -4951,21 +4803,11 @@
                                                                             z-index: 4;
                                                                             right: 3%;
                                                                         }
-
-                                                                        .members__blocks_logo {
-                                                                            display: flex;
-                                                                            justify-content: space-between;
-                                                                            align-items: center;
-                                                                            margin-top: 110px;
-                                                                            width: 70%;
-                                                                            flex-direction: row;
-                                                                        }
-                                                                        
                                                                         .Start_Ex_block__right {
                                                                             opacity: 0.8;
                                                                             z-index: 0;
                                                                             display: flex;
-                                                                            top: -140%;
+                                                                            top: -390px;
                                                                             margin-right: 0;
                                                                             width: 20%;
                                                                             position: absolute;
@@ -5035,7 +4877,7 @@
                                                                             height: auto;
                                                                         }
                                                                         .Over_1000_designers__new_features {
-                                                                            font-size: 16px;                                                                       
+                                                                            font-size: 16px;
                                                                             color: rgb(255, 109, 109);
                                                                             line-height: 3.125;
                                                                             text-align: center;
@@ -5047,9 +4889,19 @@
                                                                             z-index: 146;
                                                                             margin-top: 0px;
                                                                         }
-                                                                                                                                        
+
+                                                                        .members__blocks_logo a {
+                                                                            width: auto;
+                                                                            margin-right: 30px;
+                                                                        }
+
+                                                                        .Get_Newsletter_block {
+                                                                            padding-left: 0;
+                                                                            padding-right: 0;
+                                                                        }
+
                                                                     }
-                                                                    
+
                                                                     @media (min-width: 2560px) {
                                                                         header {
                                                                             background: url('img/header/4K_header_back.jpg');
@@ -5291,13 +5143,9 @@
                                                                             width: 30%;
                                                                         }
                                                                         .Resposive_design__left-block_rectangle {
-                                                                            opacity: 0.8;
-                                                                            position: absolute;
-                                                                            z-index: 5;
-                                                                            width: 34%;
+                                                                            width: auto;
                                                                             left: 0;
-                                                                            margin-top: 0;
-                                                                            top: -180px;
+                                                                            top: -470px;
                                                                         }
                                                                         .macbook {
                                                                             display: flex;
@@ -5676,15 +5524,7 @@
                                                                             width: 70%;
                                                                         }
                                                                         .Support_block__list {
-                                                                            font-size: 14px;
-                                                                            font-family: "Exo";
-                                                                            color: rgba(40, 40, 40, 0.659);
-                                                                            line-height: 2.143;
-                                                                            text-align: left;
-                                                                            width: 78px;
-                                                                            height: 72px;
-                                                                            z-index: 96;
-                                                                            margin-top: 30px;
+                                                                            width: auto;
                                                                         }
                                                                         .Support_block__list li {
                                                                             list-style: none;
@@ -5693,52 +5533,10 @@
                                                                             text-decoration: none;
                                                                         }
                                                                         .Support_text {
-                                                                            font-size: 22px;
-                                                                            font-family: "Exo";
-                                                                            color: rgb(40, 40, 40);
-                                                                            line-height: 2.271;
-                                                                            text-align: left;
-                                                                            -moz-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
-                                                                            -webkit-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
-                                                                            -ms-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
-                                                                            width: 79.081px;
-                                                                            height: 18.638px;
-                                                                            z-index: 95;
-                                                                            margin-top: -16px;
-                                                                        }
-                                                                        .About_US_block {
-                                                                            display: flex;
-                                                                            width: 133px;
-                                                                            flex-direction: column;
-                                                                            margin-right: 30px;
-                                                                            margin-top: 0;
-                                                                        }
-                                                                        .About_US__text {
-                                                                            font-size: 22px;
-                                                                            font-family: "Exo";
-                                                                            color: rgb(40, 40, 40);
-                                                                            line-height: 2.271;
-                                                                            text-align: left;
-                                                                            -moz-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
-                                                                            -webkit-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
-                                                                            -ms-transform: matrix( 1.00085475802915, 0, 0, 0.99945173555447, 0, 0);
                                                                             width: auto;
-                                                                            height: 18.638px;
-                                                                            z-index: 95;
-                                                                            margin-top: -16px;
+                                                                            height: auto;
                                                                         }
-                                                                        .About_US_block__list {
-                                                                            font-size: 14px;
-                                                                            font-family: "Exo";
-                                                                            color: rgba(40, 40, 40, 0.659);
-                                                                            line-height: 2.143;
-                                                                            text-align: left;
-                                                                            width: auto;
-                                                                            height: 72px;
-                                                                            z-index: 96;
-                                                                            margin-top: 30px;
-                                                                        }
-                                                                        .About_US_block__list li {
+                                                                                                                                          .About_US_block__list li {
                                                                             list-style: none;
                                                                         }
                                                                         .About_US_block__list li a {
@@ -5762,10 +5560,8 @@
                                                                             z-index: 99;
                                                                         }
                                                                         .Get_Newsletter_block {
-                                                                            display: flex;
-                                                                            flex-direction: column;
-                                                                            margin-right: 0px;
-                                                                            margin-left: 0;
+                                                                            padding-left: 0;
+                                                                            padding-right: 0;
                                                                         }
                                                                         .Get_Newsletter__text {
                                                                             font-size: 22px;
@@ -5825,17 +5621,7 @@
                                                                             position: relative;
                                                                             z-index: 8;
                                                                         }
-                                                                        .Start_Ex_block__right {
-                                                                            opacity: 0.8;
-                                                                            z-index: 0;
-                                                                            display: flex;
-                                                                            top: -390px;
-                                                                            margin-right: 0;
-                                                                            width: 20%;
-                                                                            position: absolute;
-                                                                            margin-top: 0;
-                                                                            right: 0px;
-                                                                        }
+
                                                                         .Start_Ex_block__right img {
                                                                             width: 68%;
                                                                         }
